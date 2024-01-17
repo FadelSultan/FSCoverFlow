@@ -10,10 +10,10 @@ import SwiftUI
 @available(iOS 17.0, *)
 public struct CoverFlowView: View {
     
-    let enableReflection:Bool
-    let displayType:CoverFlowType
-    let images:[UIImage]
-    let itemWidth:CGFloat = 300
+   public let enableReflection:Bool
+   public let displayType:CoverFlowType
+   public let images:[UIImage]
+   public let itemWidth:CGFloat = 300
     
     private var item:[CoverFlowItem] {
         images.compactMap{
