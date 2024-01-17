@@ -13,14 +13,21 @@ public struct CoverFlowView: View {
    public let enableReflection:Bool
    public let displayType:CoverFlowType
    public let images:[UIImage]
-   public let itemWidth:CGFloat = 300
+   public let itemWidth:CGFloat
     
     private var item:[CoverFlowItem] {
         images.compactMap{
             return .init(image: $0)
         }
     }
-    
+   
+    public init(enableReflection: Bool, displayType: CoverFlowType, images: [UIImage], itemWidth: CGFloat = 300) {
+        self.enableReflection = enableReflection
+        self.displayType = displayType
+        self.images = images
+        self.itemWidth = itemWidth
+    }
+   
     public var body: some View {
         CoverFlowContent(
             itemWidth: itemWidth,
