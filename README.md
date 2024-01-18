@@ -1,6 +1,6 @@
 # FSCoverFlow
 
-[![Watch the video]([https://example.com/path/to/your/video-thumbnail.png](https://github.com/FadelSultan/MyFiles/blob/master/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-01-18%20at%2017.03.39.png))]([https://example.com/path/to/your/video.mp4](https://github.com/FadelSultan/MyFiles/blob/master/b78189a0-9d2e-457c-8db1-0c38164de2d8.mp4))
+[![Watch the Video](https://github.com/FadelSultan/MyFiles/blob/master/FSCoverFlowPhoto.png)](https://github.com/FadelSultan/MyFiles/blob/master/b78189a0-9d2e-457c-8db1-0c38164de2d8.mp4)
 
 FSCoverFlow is a cutting-edge image gallery library, designed to provide a seamless and engaging experience for effortlessly showcasing pictures. This library allows users to easily upload and display a multitude of images from the internet, creating a visually appealing presentation within the application.
 
