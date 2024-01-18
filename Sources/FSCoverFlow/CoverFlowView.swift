@@ -21,7 +21,7 @@ public struct CoverFlowView: View {
         }
     }
    
-    public init(enableReflection: Bool, displayType: CoverFlowType, images: [UIImage], itemWidth: CGFloat = 300) {
+    public init(enableReflection: Bool, displayType: CoverFlowType, images: [UIImage], itemWidth: CGFloat) {
         self.enableReflection = enableReflection
         self.displayType = displayType
         self.images = images
