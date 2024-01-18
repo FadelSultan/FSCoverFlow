@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "fscoverflow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/FadelSultan/FSCoverFlow.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ca3c3d2040331f4ec04c0519ad4bbc38ad757cba"
+      }
+    }
+  ],
+  "version" : 2
+}

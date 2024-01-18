@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5FA3AB72B582CC30027E40B /* CoverFlowDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA3AB62B582CC30027E40B /* CoverFlowDemoApp.swift */; };
+		E5FA3AB92B582CC30027E40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA3AB82B582CC30027E40B /* ContentView.swift */; };
+		E5FA3ABB2B582CC50027E40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FA3ABA2B582CC50027E40B /* Assets.xcassets */; };
+		E5FA3ABE2B582CC50027E40B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FA3ABD2B582CC50027E40B /* Preview Assets.xcassets */; };
+		E5FA3AC62B582CDC0027E40B /* FSCoverFlow in Frameworks */ = {isa = PBXBuildFile; productRef = E5FA3AC52B582CDC0027E40B /* FSCoverFlow */; };
+		E5FA3ACB2B5833BE0027E40B /* CoverFlowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA3ACA2B5833BE0027E40B /* CoverFlowModel.swift */; };
+		E5FA3ACD2B58340F0027E40B /* CoverFlowDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA3ACC2B58340F0027E40B /* CoverFlowDataService.swift */; };
+		E5FA3AD12B58373D0027E40B /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA3AD02B58373D0027E40B /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E5FA3AB32B582CC30027E40B /* CoverFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FA3AB62B582CC30027E40B /* CoverFlowDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowDemoApp.swift; sourceTree = "<group>"; };
+		E5FA3AB82B582CC30027E40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5FA3ABA2B582CC50027E40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5FA3ABD2B582CC50027E40B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5FA3ACA2B5833BE0027E40B /* CoverFlowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowModel.swift; sourceTree = "<group>"; };
+		E5FA3ACC2B58340F0027E40B /* CoverFlowDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowDataService.swift; sourceTree = "<group>"; };
+		E5FA3AD02B58373D0027E40B /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5FA3AB02B582CC30027E40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FA3AC62B582CDC0027E40B /* FSCoverFlow in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5FA3AAA2B582CC30027E40B = {
+			isa = PBXGroup;
+			children = (
+				E5FA3AB52B582CC30027E40B /* CoverFlowDemo */,
+				E5FA3AB42B582CC30027E40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5FA3AB42B582CC30027E40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3AB32B582CC30027E40B /* CoverFlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5FA3AB52B582CC30027E40B /* CoverFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3AB62B582CC30027E40B /* CoverFlowDemoApp.swift */,
+				E5FA3AC72B58338D0027E40B /* Service */,
+				E5FA3AC82B58339A0027E40B /* Model */,
+				E5FA3AC92B58339F0027E40B /* Core */,
+				E5FA3ABA2B582CC50027E40B /* Assets.xcassets */,
+				E5FA3ABC2B582CC50027E40B /* Preview Content */,
+			);
+			path = CoverFlowDemo;
+			sourceTree = "<group>";
+		};
+		E5FA3ABC2B582CC50027E40B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3ABD2B582CC50027E40B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5FA3AC72B58338D0027E40B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3ACC2B58340F0027E40B /* CoverFlowDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E5FA3AC82B58339A0027E40B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3ACA2B5833BE0027E40B /* CoverFlowModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5FA3AC92B58339F0027E40B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3ACF2B5836F60027E40B /* ViewModel */,
+				E5FA3ACE2B5836F00027E40B /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E5FA3ACE2B5836F00027E40B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3AB82B582CC30027E40B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5FA3ACF2B5836F60027E40B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA3AD02B58373D0027E40B /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5FA3AB22B582CC30027E40B /* CoverFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5FA3AC12B582CC50027E40B /* Build configuration list for PBXNativeTarget "CoverFlowDemo" */;
+			buildPhases = (
+				E5FA3AAF2B582CC30027E40B /* Sources */,
+				E5FA3AB02B582CC30027E40B /* Frameworks */,
+				E5FA3AB12B582CC30027E40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoverFlowDemo;
+			packageProductDependencies = (
+				E5FA3AC52B582CDC0027E40B /* FSCoverFlow */,
+			);
+			productName = CoverFlowDemo;
+			productReference = E5FA3AB32B582CC30027E40B /* CoverFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5FA3AAB2B582CC30027E40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E5FA3AB22B582CC30027E40B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E5FA3AAE2B582CC30027E40B /* Build configuration list for PBXProject "CoverFlowDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5FA3AAA2B582CC30027E40B;
+			packageReferences = (
+				E5FA3AC42B582CDC0027E40B /* XCRemoteSwiftPackageReference "FSCoverFlow" */,
+			);
+			productRefGroup = E5FA3AB42B582CC30027E40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5FA3AB22B582CC30027E40B /* CoverFlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5FA3AB12B582CC30027E40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FA3ABE2B582CC50027E40B /* Preview Assets.xcassets in Resources */,
+				E5FA3ABB2B582CC50027E40B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5FA3AAF2B582CC30027E40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FA3ACB2B5833BE0027E40B /* CoverFlowModel.swift in Sources */,
+				E5FA3AB92B582CC30027E40B /* ContentView.swift in Sources */,
+				E5FA3AB72B582CC30027E40B /* CoverFlowDemoApp.swift in Sources */,
+				E5FA3ACD2B58340F0027E40B /* CoverFlowDataService.swift in Sources */,
+				E5FA3AD12B58373D0027E40B /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5FA3ABF2B582CC50027E40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5FA3AC02B582CC50027E40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5FA3AC22B582CC50027E40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoverFlowDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QR583T767F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadeldev.CoverFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5FA3AC32B582CC50027E40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoverFlowDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = QR583T767F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fadeldev.CoverFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5FA3AAE2B582CC30027E40B /* Build configuration list for PBXProject "CoverFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FA3ABF2B582CC50027E40B /* Debug */,
+				E5FA3AC02B582CC50027E40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5FA3AC12B582CC50027E40B /* Build configuration list for PBXNativeTarget "CoverFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FA3AC22B582CC50027E40B /* Debug */,
+				E5FA3AC32B582CC50027E40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5FA3AC42B582CDC0027E40B /* XCRemoteSwiftPackageReference "FSCoverFlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FadelSultan/FSCoverFlow.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5FA3AC52B582CDC0027E40B /* FSCoverFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5FA3AC42B582CDC0027E40B /* XCRemoteSwiftPackageReference "FSCoverFlow" */;
+			productName = FSCoverFlow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E5FA3AAB2B582CC30027E40B /* Project object */;
+}
